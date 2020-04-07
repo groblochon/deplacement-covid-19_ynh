@@ -9,8 +9,8 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 ## Vue d'ensemble
 Générateur de certificat de déplacement.
 
-Source : https://github.com/LAB-MI/deplacement-covid-19
-Démo : https://media.interieur.gouv.fr/deplacement-covid-19
+* Source : https://github.com/LAB-MI/deplacement-covid-19
+* Démo : https://media.interieur.gouv.fr/deplacement-covid-19
 
 **Version incluse:** 0.0.1
 
