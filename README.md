@@ -1,4 +1,4 @@
-# App exemple pour YunoHost
+# Générateur de certificat de déplacement (BETA !)
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/deplacement-covid-19.svg)](https://dash.yunohost.org/appci/app/deplacement-covid-19)  
 [![Installer deplacement-covid-19 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=deplacement-covid-19)
@@ -8,6 +8,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 Générateur de certificat de déplacement.
+
+Source : https://github.com/LAB-MI/deplacement-covid-19
+Démo : https://media.interieur.gouv.fr/deplacement-covid-19
 
 **Version incluse:** 0.0.1
 
