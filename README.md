@@ -1,85 +1,51 @@
-# Usage of this package (REMOVE THIS SECTION BEFORE RELEASE)
-- Copy this app before working on it.
-- Edit `conf/nginx.conf` file to match application prerequisites.
-- Edit `manifest.json` with application specific information.
-- Edit the `install`, `upgrade`, `remove`, `backup`, and `restore` scripts.
-  - Using the [script helpers documentation.](https://helpers.yunohost.org/)
-- Add a `LICENSE` file for the package.
-- Edit `README.md` and README_fr.md.
+# App exemple pour YunoHost
 
-# Example app for YunoHost
+[![Niveau d'intégration](https://dash.yunohost.org/integration/deplacement-covid-19.svg)](https://dash.yunohost.org/appci/app/deplacement-covid-19)  
+[![Installer REPLACEBYYOURAPP avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=deplacement-covid-19)
 
-[![Integration level](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP)  
-[![Install REPLACEBYYOURAPP with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=REPLACEBYYOURAPP)
+> *Ce package vous permet d'installer deplacement-covid-19_ynh rapidement et simplement sur un serveur Yunohost.  
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
-*[Lire ce readme en français.](./README_fr.md)*
+## Vue d'ensemble
+Générateur de certificat de déplacement.
 
-> *This package allow you to install REPLACEBYYOURAPP quickly and simply on a YunoHost server.  
-If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
+**Version incluse:** 0.0.1
 
-## Overview
-Quick description of this app.
+#### Architectures supportées
 
-**Shipped version:** 1.0
-
-## Screenshots
-
-![](Link to an screenshot for this app)
-
-## Demo
-
-* [Official demo](Link to a demo site for this app)
-
-## Configuration
-
-How to configure this app: by an admin panel, a plain file with SSH, or any other way.
-
-## Documentation
-
- * Official documentation: Link to the official documentation of this app
- * YunoHost documentation: If specific documentation is needed, feel free to contribute.
-
-## YunoHost specific features
-
-#### Multi-users support
-
-Are LDAP and HTTP auth supported?
-Can the app be used by multiple users?
-
-#### Supported architectures
-
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/REPLACEBYYOURAPP%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/REPLACEBYYOURAPP%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
+* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/deplacement-covid-19%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/deplacement-covid-19/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/deplacement-covid-19%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/deplacement-covid-19/)
+* Jessie x86-64b - [![Build Status](https://ci-stretch.nohost.me/ci/logs/deplacement-covid-19%20%28Apps%29.svg)](https://ci-stretch.nohost.me/ci/apps/deplacement-covid-19/)
 
 ## Limitations
 
-* Any known limitations.
+* Limitations connues.
 
-## Additional information
+## Informations additionnelles
 
-* Other information you would add about this application
+* Autres informations à ajouter sur cette application
 
-**More information on the documentation page:**  
+**Plus d'informations sur la page de documentation:**  
 https://yunohost.org/packaging_apps
 
-## Links
+## Liens
 
- * Report a bug: https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/issues
- * App website: Link to the official website of this app
- * Upstream app repository: Link to the official repository of the upstream app
- * YunoHost website: https://yunohost.org/
+ * Signaler un bug: https://github.com/YunoHost-Apps/deplacement-covid-19_ynh/issues
+ * Site de l'application: Lien vers le site officiel de cette application
+ * Dépôt de l'application principale: Lien vers le dépôt officiel de l'application principale
+ * Site web YunoHost: https://yunohost.org/
 
 ---
 
-Developers info
+Informations pour les développeurs
 ----------------
 
-**Only if you want to use a testing branch for coding, instead of merging directly into master.**
-Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing).
+**Seulement si vous voulez utiliser une branche de test pour le codage, au lieu de fusionner directement dans la banche principale.**
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/deplacement-covid-19_ynh/tree/testing).
 
-To try the testing branch, please proceed like that.
+Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
-or
-sudo yunohost app upgrade REPLACEBYYOURAPP -u https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/deplacement-covid-19_ynh/tree/testing --debug
+ou
+sudo yunohost app upgrade deplacement-covid-19 -u https://github.com/YunoHost-Apps/deplacement-covid-19_ynh/tree/testing --debug
 ```
